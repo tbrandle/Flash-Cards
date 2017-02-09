@@ -3,7 +3,7 @@ import { CardGenerator } from '../scripts/CardGenerator.js';
 
 describe('Testing CardGenerator', function () {
 
-  const cardFile = "cards.txt"
+  const cardFile = "./scripts/cards.txt"
   let cardsGenerator = new CardGenerator(cardFile)
 
   it('should instantiate an object', function () {
